@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>One Piece Tap One Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <div class="neon-border">
+      <h1>TAP ONE</h1>
+      <p class="subtitle">Choose One Option Per Round - Computer Generates, You Pick!</p>
+    </div>
+    <div class="selected-choices" id="selectedChoices">
+      <!-- Choices will be rendered here -->
+    </div>
+    <div class="options-container" id="optionsContainer"></div>
+   
+    <div class="final-result" id="finalResult">
+      <div class="rank-title" id="rankTitle"></div>
+      <div class="total-power" id="totalPower"></div>
+      <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+      <div class="rank-description" id="rankDescription"></div>
+      <button class="tap-button" onclick="resetGame()" style="margin-top: 10px; font-size: 1rem;">🔄 Play Again 🔄</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
