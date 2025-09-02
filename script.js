@@ -93,7 +93,7 @@
       "Nekomamushi": "🐱", "Dorry": "🗿", "Franky": "🤖", "Apoo": "🎵",
       "Leo": "🧚", "Vegapunk": "🧠", "Sengoku": "🔵", "Robin": "📚",
       "Mihawk": "⚔️", "Usopp": "🎯", "Nami": "🗺️", "Chopper": "🦌",
-      "Goku": "👑", "Kaido": "🐉", "Big Mom": "👸", "Law": "💊",
+      "Kid": "🧲", "Kaido": "🐉", "Big Mom": "👸", "Law": "💊",
       "Human": "👤", "Regular Human": "👤", "Regular Person": "👤"
     };
 
