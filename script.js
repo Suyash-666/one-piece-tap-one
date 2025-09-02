@@ -46,9 +46,9 @@
         { name: "Usopp's IQ", character: "Usopp", power: 5, rarity: "Rare" },
         { name: "Nami's IQ", character: "Nami", power: 5, rarity: "Rare" },
         { name: "Chopper's IQ", character: "Chopper", power: 4, rarity: "Common" },
-        { name: "Luffy's IQ", character: "Luffy", power: 2, rarity: "Common" },
+        { name: "Luffy's IQ", character: "Luffy", power: 1, rarity: "Common" },
         { name: "Zoro's IQ", character: "Zoro", power: 1, rarity: "Common" },
-        { name: "Goku's IQ", character: "Goku", power: 1, rarity: "Common" }
+        { name: "kid's IQ", character: "kid", power: 1, rarity: "Common" }
       ],
       "Body": [
         { name: "Kaido's Body", character: "Kaido", power: 10, rarity: "Legendary" },
