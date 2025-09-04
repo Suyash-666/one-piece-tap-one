@@ -16,6 +16,7 @@
         { name: "No Devil Fruit", character: "Human", power: 0, rarity: "Common" }
       ],
       "Haki": [
+        
         { name: "Shanks' Haki", character: "Shanks", power: 10, rarity: "Legendary" },
         { name: "Luffy's Haki", character: "Luffy", power: 9, rarity: "Epic" },
         { name: "Katakuri's Haki", character: "Katakuri", power: 8, rarity: "Epic" },
@@ -51,6 +52,7 @@
         { name: "kid's IQ", character: "kid", power: 1, rarity: "Common" }
       ],
       "Body": [
+        {name: "IMU's Body",character:"IMU",power:10,rarity:"Legendary"},
         { name: "Kaido's Body", character: "Kaido", power: 10, rarity: "Legendary" },
         { name: "Big Mom's Body", character: "Big Mom", power: 8, rarity: "Legendary" },
         { name: "Whitebeard's Body", character: "Whitebeard", power: 9, rarity: "Epic" },
@@ -65,7 +67,8 @@
     };
 
     const ranks = [
-      { name: "Pirate King", minPower: 46, description: "The ultimate ruler of the seas! You've achieved what only Gol D. Roger accomplished!" },
+        {name: "God Level",minPower:46, description:"Power of the JoyBoy"},
+      { name: "Pirate King", minPower: 42, description: "The ultimate ruler of the seas! You've achieved what only Gol D. Roger accomplished!" },
       { name: "Yonko", minPower: 38, description: "One of the four emperors ruling the New World! Your power rivals the greatest pirates!" },
       { name: "Admiral", minPower: 32, description: "The strongest force of the Navy! Your justice burns bright across the seas!" },
       { name: "Warlord", minPower: 26, description: "A government-sanctioned pirate with incredible power! You balance between law and freedom!" },
@@ -94,7 +97,7 @@
       "Leo": "🧚", "Vegapunk": "🧠", "Sengoku": "🔵", "Robin": "📚",
       "Mihawk": "⚔️", "Usopp": "🎯", "Nami": "🗺️", "Chopper": "🦌",
       "Kid": "🧲", "Kaido": "🐉", "Big Mom": "👸", "Law": "💊",
-      "Human": "👤", "Regular Human": "👤", "Regular Person": "👤"
+      "Human": "👤", "Regular Human": "👤", "Regular Person": "👤","IMU":"⚫"
     };
 
     // Generate weighted random option
