@@ -4,10 +4,53 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>One Piece Tap One Game</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="game-container">
+  <!-- Login Screen -->
+  <div class="login-container" id="loginScreen">
+    <h2 class="login-title">⚓ LOGIN ⚓</h2>
+    <form class="login-form" id="loginForm">
+      <div class="input-group">
+        <label class="input-label">Pirate Name:</label>
+        <input type="text" class="input-field" id="usernameInput" placeholder="Enter your pirate name" required>
+      </div>
+      <div class="input-group">
+        <label class="input-label">Crew Password:</label>
+        <input type="password" class="input-field" id="passwordInput" placeholder="Enter password" required>
+      </div>
+      <button type="submit" class="login-button" id="loginBtn">🏴‍☠️ Login 🏴‍☠️</button>
+      <button type="button" class="register-button" id="registerBtn">✨ Register New Pirate ✨</button>
+    </form>
+    <div class="login-message" id="loginMessage"></div>
+    <p style="margin-top: 20px; color: #888; font-size: 0.9rem;">
+      💡 Register first if you're a new pirate, then login with your credentials!
+    </p>
+  </div>
+
+  <!-- User Panel -->
+  <div class="user-panel hidden" id="userPanel">
+    <span class="user-panel-name" id="currentUser"></span>
+    <button class="logout-btn" onclick="logout()">Logout</button>
+  </div>
+
+  <!-- Sidebar Toggle -->
+  <button class="sidebar-toggle hidden" id="sidebarToggle" onclick="toggleSidebar()">🏆</button>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <button class="sidebar-close" onclick="toggleSidebar()">×</button>
+      <div class="sidebar-title">🏆 All-Time Top Pirates 🏆</div>
+      <div class="user-info">Legendary combinations across all time</div>
+    </div>
+    <div class="leaderboard" id="leaderboard">
+      <!-- Leaderboard items will be generated here -->
+    </div>
+  </div>
+
+  <!-- Game Content -->
+  <div class="game-container hidden" id="gameContainer">
     <div class="neon-border">
       <h1>TAP ONE</h1>
       <p class="subtitle">Choose One Option Per Round - Computer Generates, You Pick!</p>
@@ -16,7 +59,7 @@
       <!-- Choices will be rendered here -->
     </div>
     <div class="options-container" id="optionsContainer"></div>
-   
+            
     <div class="final-result" id="finalResult">
       <div class="rank-title" id="rankTitle"></div>
       <div class="total-power" id="totalPower"></div>
@@ -25,6 +68,7 @@
       <button class="tap-button" onclick="resetGame()" style="margin-top: 10px; font-size: 1rem;">🔄 Play Again 🔄</button>
     </div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
