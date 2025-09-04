@@ -97,7 +97,7 @@
       "Leo": "🧚", "Vegapunk": "🧠", "Sengoku": "🔵", "Robin": "📚",
       "Mihawk": "⚔️", "Usopp": "🎯", "Nami": "🗺️", "Chopper": "🦌",
       "Kid": "🧲", "Kaido": "🐉", "Big Mom": "👸", "Law": "💊",
-      "Human": "👤", "Regular Human": "👤", "Regular Person": "👤","IMU":"🧑‍⚖️"
+      "Human": "👤", "Regular Human": "👤", "Regular Person": "👤","IMU":"👁️"
     };
 
     // Generate weighted random option
