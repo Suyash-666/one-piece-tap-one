@@ -67,7 +67,7 @@
     };
 
     const ranks = [
-        {name: "God Level",minPower:46, description:"Power of the JoyBoy"},
+      {name: "God Level",minPower:46, description:"Power of the JoyBoy"},
       { name: "Pirate King", minPower: 42, description: "The ultimate ruler of the seas! You've achieved what only Gol D. Roger accomplished!" },
       { name: "Yonko", minPower: 38, description: "One of the four emperors ruling the New World! Your power rivals the greatest pirates!" },
       { name: "Admiral", minPower: 32, description: "The strongest force of the Navy! Your justice burns bright across the seas!" },
@@ -97,7 +97,7 @@
       "Leo": "🧚", "Vegapunk": "🧠", "Sengoku": "🔵", "Robin": "📚",
       "Mihawk": "⚔️", "Usopp": "🎯", "Nami": "🗺️", "Chopper": "🦌",
       "Kid": "🧲", "Kaido": "🐉", "Big Mom": "👸", "Law": "💊",
-      "Human": "👤", "Regular Human": "👤", "Regular Person": "👤","IMU":"⚫"
+      "Human": "👤", "Regular Human": "👤", "Regular Person": "👤","IMU":"🧑‍⚖️"
     };
 
     // Generate weighted random option
